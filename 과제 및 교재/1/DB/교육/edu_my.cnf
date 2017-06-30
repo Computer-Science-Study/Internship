@@ -1,0 +1,15 @@
+[mysqld]
+innodb_buffer_pool_size = 128M
+
+basedir = /usr/local/mysql
+datadir = /usr/local/mysql/data
+port = 3306
+server_id = 1001
+socket = /tmp/mysql.sock
+
+join_buffer_size = 28M
+sort_buffer_size = 2M
+read_rnd_buffer_size = 2M
+
+
+[client]
